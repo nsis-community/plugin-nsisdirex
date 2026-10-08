@@ -27,5 +27,6 @@ jobs:
           sources: |
             Contrib/NSISDirEx/NSISDirEx.cpp
             Contrib/NSISDirEx/NSISDirEx.rc
+          targets: x86-ansi
           strict: false
           release: ${{ github.event_name == 'release' }}
