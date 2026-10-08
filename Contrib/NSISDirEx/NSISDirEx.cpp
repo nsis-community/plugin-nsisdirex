@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <stdio.h>
 #include <shlobj.h>
-#include "..\exdll\exdll.h"
+#include "exdll.h"
 #include "resource.h"
 
 #pragma warning( disable : 4311 )
